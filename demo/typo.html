@@ -53,25 +53,26 @@
   input[type=radio]:focus { outline:none; }
   input[type=radio]:checked:after { box-shadow:0 0 5px 2px #f44; animation:pulse 1.5s ease-in-out infinite both; }
   .selekta input[type=radio]:after { content:''; display:block; width:100%; height:100%; border-radius:50%; }
-  .typo { font-family:'Archive'; max-width:51ch; margin-inline:auto; container-type:inline-size; }
+  .typo { font-family:'Archive'; max-width:53ch; margin-inline:auto; padding-inline:0.75rem; container-type:inline-size; }
   .typo h2:first-of-type { font-size:2rem; }
   blockquote { display:none; }
   .style1 { font-feature-settings:"kern", "liga", "onum"; }
   .style1 h2:first-of-type { font-family:'Brandon'; font-size:2.25rem; text-transform:uppercase; line-height:1.2; word-spacing:0.1em; }
   .style1 p { text-align:initial; font-feature-settings:"kern", "liga", "onum"; }
   .style3 .typo { font-family:'JollyGood'; max-width:49ch; position:relative; margin-inline:35% auto; }
-  .style4 .typo { font-family:'Input'; column-count:2; column-gap:3rem; column-rule:1px solid; max-width:91ch; padding-bottom:1.5rem; }
+  .style4 .typo { font-family:'Input'; column-count:2; column-gap:3rem; column-rule:1px solid; max-width:82ch; padding-bottom:1.5rem; }
   .style5 .typo { font-family:'Proxima Nova'; }
   .typo h2:nth-of-type(2) { text-transform:capitalize; font-size:13.1cqw; line-height:1; margin-top:0.75em; margin-bottom:1.5rem; }
   .typo h2:nth-of-type(3) span { color:#15aec0; }
   :is(.style1, .style5) .typo *+p { margin-top:2em; }
   .style1 .typo p:first-of-type:first-line { text-transform:uppercase; font-feature-settings:"kern", "liga", "smcp", "c2sc" ; }
-  .style2 .typo { font-family:'Inter'; }
+  .style2 .typo { font-family:'Inter'; border-left:4px solid #6fa8be; padding-inline-start:1.5rem; }
   .style2 .typo h2:first-of-type { color:transparent; line-height:1.05; font-size:2em; text-align:left; text-transform:uppercase; letter-spacing:0.008em; text-wrap:balance; margin-bottom:1em; background-image:linear-gradient(to bottom right, #6fa8be, #2e5666); background-clip:text; }
   .style3 .typo h2:first-of-type { position:absolute; left:-55%; width:50%; text-align:right; margin-top:6rem; font-size:2.25rem; }
   .style3 .typo p:first-of-type { font-size:1.4em; line-height:1.3; opacity:0.8; margin-top:6rem; margin-bottom:0.75rem; }
   .style4 .typo h2:first-of-type { column-span:all; text-wrap:balance; }
-  .style4 .typo h2:nth-of-type(2) { font-size:5cqw; }
+  .style4 .typo h2:first-of-type:first-line { color:red; }
+  .style4 .typo h2:nth-of-type(2) { font-size:5.6cqw; }
   .style4 .typo p:first-of-type:first-letter { initial-letter:6 7; background-color:red; font-family:'Bebas Neue'; /*font-weight:bold;*/ margin-right:0.5em; margin-bottom:-0.15em; /*border:1px solid; border-bottom:none; border-right:none;*/ padding:0.5em; /*float:left; shape-outside:polygon(0% 0%, 55% 0%, 55% 40%, 30% 40%, 30% 87%, 50% 87%, 50% 100%, 0% 100%); shape-margin:0.5rem; width:1em; height:6rem; font-size:8.75rem;*/ }
   .style5 .typo h2 { font-family:'PF Regal'; }
   .style5 .typo h2:nth-of-type(2) { color:#da2127; }
